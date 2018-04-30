@@ -1,9 +1,33 @@
 @charset "UTF-8";
 /* This is a comment! Text here will be ignored by the browser. */
-body {
-	margin: 0 auto;
+img { 
+	image-orientation: center;
+	margin: 0;
+	padding: 0;
+	
 }
-.homePage {
+body {
+     font: 100%/1.4 Modern Segoe, "Segoe UI", "Avenir", "Modern Antiqua", Verdana, "Sans-Serif";
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #000000;
+}
+
+a:link {
+     color: #FF9933;
+}
+a:visited {
+     color: #FF9933;
+}
+a:hover {
+	 color: #9A28FF;
+}
+	 a:active, a:focus { 
+     text-decoration: underline;
+}	
+{	margin: 0 auto;
+}.homePage {
 	background: #2E2E2E;
 }
 .container {
@@ -17,7 +41,7 @@ body {
 	padding: 5;
 	float: left;
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	
 }
 .nav {
@@ -34,7 +58,7 @@ body {
 	margin: 0px;
 	float: left;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	text-align: center;
 }
 .footer {
@@ -44,4 +68,5 @@ body {
 	width: 100%;
 	height: 50px;
 	text-align: center;
+	color: #FF9933;
 }
